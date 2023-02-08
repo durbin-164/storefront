@@ -1,0 +1,43 @@
+update user set authentication_string=12345 where user='root';
+
+update user set authentication_string='12345' where user='root';
+
+ALTER USER 'root@localhost' IDENTIFIED BY 'Info12@09';
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'Info12@09';
+
+update user set authentication_string=password("12345") where User = 'root';
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '123456';
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Info12@09';
+
+
+user1
+
+"refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY3Mzc4ODExNSwianRpIjoiNDk5YTE3YWUzOGQ5NDYzZjg1OTcxODFjZWZjMmU4YTMiLCJ1c2VyX2lkIjozfQ.-BhV-DBKiOwWzU0QNCgwvdulRqvQkIqZcIiBtuxTQ_o",
+"access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczNzg4MTE1LCJqdGkiOiIzODFiZjRhNzZmNzI0NjM2YTI0MWM0ODY0MWQ4NmVlMyIsInVzZXJfaWQiOjN9.jKU-Vskqvn8lUT0BH_bIXAi08O7E7uc0AeBljH8t5vA"
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczNzg4MTE1LCJqdGkiOiIzODFiZjRhNzZmNzI0NjM2YTI0MWM0ODY0MWQ4NmVlMyIsInVzZXJfaWQiOjN9.jKU-Vskqvn8lUT0BH_bIXAi08O7E7uc0AeBljH8t5vA
+
+
+Admin_Admin
+
+"refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY3MzgwMDE5NiwianRpIjoiOWE5MTdjMmQyMTI3NGQ2Y2EyMzEwMjdkMmIzZjU4ZjEiLCJ1c2VyX2lkIjoyfQ.JFYfyrpNMeNChjHDzBeRistwq7jPXEFkRVC1AMYY_Gs",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjczODAwMTk2LCJqdGkiOiIwYjQyY2Q1OTUzMzE0NmI3OWVmNTI5NjY4MDI2NmE2ZiIsInVzZXJfaWQiOjJ9.Q-RsC1zSCGjb9lAFWSGDticeZEWFPT0IhI_regEJpa8"
+
+
+
+6f06c934-97c1-4552-bb17-cb0f940d16fd
+
+
+sudo docker run --rm -it -p 3000:80 -p 2525:25 rnwood/smtp4dev
+
+sudo docker run -d -p 6379:6379 redis
+sudo docker run -p 6379:6379 redis
+
+celery -A storefront worker --loglevel=info
+
+
+
+
+
